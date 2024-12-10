@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: black;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px hotpink;
+
+}
+
+button {
+margin: 10px 5px;
+padding: 10px 15px;
+border: none;
+border-radius: 5x;
+background-color: blueviolet;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+input {
+padding: 8px;
+margin: 5px;
+border: 1px;
+border-radius: 5x;
+width: calc(100% 20);
+
+
+}
