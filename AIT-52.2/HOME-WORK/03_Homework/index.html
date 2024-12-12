@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homework3</title>
+  </head>
+  <body>
+    <h1><em>Registration</em></h1>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="please your name" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="please your email"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="enter your password"
+          minlength="8"
+          maxlength="15"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="repeat-password">Repeat password</label>
+        <input
+          id="repeat-password"
+          type="password"
+          placeholder="repeat your password"
+          minlength="8"
+          maxlength="15"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="agree">I agree...</label>
+        <input id="agree" type="checkbox" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" value="male" required />
+
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female" required />
+      </div>
+
+      <br />
+
+      <button type="reset">Reset!</button>
+      <button type="submit">Submit!</button>
+    </form>
+  </body>
+</html>
