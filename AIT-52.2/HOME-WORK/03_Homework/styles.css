@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(127, 255, 178, 0.505);
+  background-image: url("image/1693457161129179736.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: rgba(34, 178, 125, 0.889);
+  font-size: 40px;
+  color: rgba(255, 0, 60, 0.979);
+  box-shadow: 10px 10px 20px yellow;
+}
+form {
+  width: 30%;
+  margin: 50px auto;
+  padding: 80px;
+  background-image: url("image/1691608221157395000.jpg");
+  background-size: cover;
+  border: 2px solid rgba(7, 16, 1, 0.351);
+  border-radius: 20px;
+  box-shadow: -30px -20px 18px rgba(255, 255, 0, 0.489);
+  text-decoration-color: yellow;
+  color: rgba(255, 0, 60, 0.979);
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="password"] {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 0 10px 10px;
+  border: 2px solid rgba(7, 16, 1, 0.351);
+  box-shadow: 10px 10px 20px yellow;
+}
+button {
+  cursor: pointer;
+  border: none;
+padding: 10px 20px 10px 20px;
+border-radius: 20px;
+margin: 20px 50px;
+}
+.reset {
+  background-color: aqua;
+}
+.submit {
+  background-color: rgb(197, 127, 255);
+}

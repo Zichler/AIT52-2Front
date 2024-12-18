@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Covered+By+Your+Grace&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: normal;
+  font-variation-settings: initial;
+}
+.header {
+  height: 400px;
+  background-image: url("./image/coffee-2358392_1280.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(162, 0, 255, 0.89);
+    font-size: 80px;
+    padding-top: 130px;
+}
+.main {
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+width: 48%;
+top: 15px;
+}
+.left {
+  left: 15px;
+}
+.right {
+  right: 15px;
+}

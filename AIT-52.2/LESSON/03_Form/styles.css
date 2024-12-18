@@ -1,0 +1,17 @@
+body {
+background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto ;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

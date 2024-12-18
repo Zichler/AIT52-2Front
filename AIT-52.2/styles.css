@@ -1,0 +1,23 @@
+body {
+background-image: url("https://habrastorage.org/getpro/habr/upload_files/d81/0b3/d7b/d810b3d7bb38b0fbf6cc0f543fd9d8b4.png");
+background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.lesson-container {
+display: flex;
+flex-direction: column;
+ 
+}
+
+main {
+    padding: 0px 30px;
+   
+    
+}
+a:hover {
+    text-decoration: underline;
+    color: coral;
+}

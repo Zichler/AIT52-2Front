@@ -1,9 +1,23 @@
 body {
     text-align: center;
     background-image: url("https://static.tildacdn.com/tild3435-3363-4364-b066-373163663663/fc3acae59751283ff67a.jpg"); 
-}
-.weather {
+    display: flex; /* Используем Flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 100vh; /* Высота страницы на весь экран */
+    margin: 0; /* Убираем отступы */
+  }
+  
+  .weather {
     font-size: 30px;
     border: 10px solid;
     border-radius: 20px;
-}
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Центрируем текст внутри контейнера по горизонтали */
+    background-color: rgba(255, 255, 255, 0.8); /* Светлый фон с прозрачностью для контраста */
+    padding: 20px;
+  }
+  
