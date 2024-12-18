@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-image: url("https://static.tildacdn.com/tild3435-3363-4364-b066-373163663663/fc3acae59751283ff67a.jpg"); 
+}
+.weather {
+    font-size: 30px;
+    border: 10px solid;
+    border-radius: 20px;
+}
